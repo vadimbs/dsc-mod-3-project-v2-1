@@ -12,7 +12,7 @@ Build model for prediction water pumps status on data from <a href="http://taari
     import_libraries.py - helper file for import necessary libraries
     helper.py - helper functions
     data/
-        downloaded/ - folder with data from https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
+        downloaded/ - folder with data from <a href="https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/" target="_blank">drivendata.org</a>
             train_data.csv - train features
             train_labels.csv - labels
             test_data.csv - test features
@@ -39,10 +39,7 @@ Build model for prediction water pumps status on data from <a href="http://taari
 
 We fitted several classification models and get the best result with RandomForestClassifier() and XGBClassifier().<br>
 Both behave well after tuning hyperparameters.<br>
-
-Classifier	Train score	Test score	Best params
-2	RandomForestClassifier	0.936	0.802	{'classifier__max_depth': 32}
-1	XGBClassifier	0.916	0.801	{'classifier__max_depth': 15}
-0	BaggingClassifier	0.891	0.795	
-
+<br>
+<img src="models_results.png">
+<br>
 <img src="submission_score.png">
