@@ -42,4 +42,12 @@ Both behave well after tuning hyperparameters.<br>
 <br>
 <img src="models_results.png">
 <br>
+
+
+#### Submission with only `RandomForestClassifier()` model (accuracy score: 0.802)
+
 <img src="submission_score.png">
+
+#### Submission with ensemble of `RandomForestClassifier()`, `XGBClassifier()` and `DecisionTreeClassifier()` using `VotingClassifier()`  (accuracy score: 0.806)
+
+<img src="submission_score_ensemble.png">
