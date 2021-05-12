@@ -51,3 +51,5 @@ Both behave well after tuning hyperparameters.<br>
 #### Submission with ensemble of `RandomForestClassifier()`, `XGBClassifier()` and `DecisionTreeClassifier()` using `VotingClassifier()`  (accuracy score: 0.806)
 
 <img src="submission_score_ensemble.png">
+
+#### In this particular case ensemble method did worse than the random forest classifier with accuracy score 0.7996 and 0.8055 respectively
