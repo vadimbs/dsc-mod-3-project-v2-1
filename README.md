@@ -34,6 +34,7 @@ Build model for prediction water pumps status on data from <a href="http://taari
 
         
 <br>
+
 ## Conclusions
 
 We fitted several classification models and get the best result with RandomForestClassifier() and XGBClassifier().<br>
