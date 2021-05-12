@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+from imblearn.over_sampling import SMOTE, ADASYN
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import SimpleImputer, IterativeImputer
 from sklearn.pipeline import Pipeline
@@ -21,6 +22,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, plot_confusion_matrix
 import warnings
 warnings.filterwarnings('ignore')
