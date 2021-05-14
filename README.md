@@ -1,7 +1,9 @@
 
 # Module 3 Final Project
 
-Build model for prediction water pumps status on data from <a href="http://taarifa.org/" target="_blank">Taarifa</a> and the <a href="http://maji.go.tz/" target="_blank">Tanzanian Ministry of Water</a>.
+This analysis was done to better understand and find ways to improve water pumps operation and consequently quality of life in Tanzania.
+<br><br>
+Model was built for prediction water pumps status on data from <a href="http://taarifa.org/" target="_blank">Taarifa</a> and the <a href="http://maji.go.tz/" target="_blank">Tanzanian Ministry of Water</a>.
 
 
 ## Contents
