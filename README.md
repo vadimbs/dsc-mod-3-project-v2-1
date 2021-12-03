@@ -1,5 +1,5 @@
 
-# Module 3 Final Project
+# Tanzanian water pumps status analysis
 
 This analysis was done to better understand and find ways to improve water pumps operation and consequently quality of life in Tanzania.
 <br><br>
